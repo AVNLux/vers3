@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v27-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v27-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v27-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* bebas-neue-regular - latin */
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/bebas-neue-v2-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/bebas-neue-v2-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 136px;
+    margin-bottom: 48px;
+}
+
+.header-line {
+    height: 49px;
+    background-color: #323232;
+    margin-bottom: 31px;
+}
+.wrapper {
+    max-width: 1685px;
+    margin: 0 auto;
+    margin-left: 121px;
+}
+.header-line-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 49px;
+}
+.header-city {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #fff;
+}
+.header-phone {
+    margin-left: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 150%;
+    color: #fff;
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.header-logo {
+    margin-right: 48px;
+}
+.header-navigation {
+}
+.navigation-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 38px;
+}
+.navigation-item {
+    padding: 10px 25px 10px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+.navigation-item:nth-last-child {
+    padding-right: 0;
+}
+.navigation-link {
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 9px;
+}
+.navigation-item:hover .navigation-link {
+    border-bottom: 2px solid #000;
+}
+.header-sprite {
+    display: flex;
+    margin-left: auto;
+    width: 164px;
+}
+.sprite-logo {
+    height: 24px;
+    width: 24px;
+    padding-right: 20px;
+}
+.sprite-logo:last-child {
+    padding-right: 1px;
+}
+
+.user-main {
+}
+.wrapper {
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.user-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 150%;
+    color: #000;
+    margin-right: 15px;
+}
+.user-logo {
+}
+.main-title {
+    margin-left: auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 107px;
+    line-height: 200%;
+    color: #000;
+}
+.bonus-card {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CACACA;
+    margin-top: -66px;
+}
+
+.user-data {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.account-menu {
+    margin-left: 130px;
+}
+.acc-menu-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 200%;
+}
+.menu-item-link {
+    color: #828282;
+    text-decoration: none;
+}
+.personal-information {
+    margin-right: auto;
+    margin-left: auto;
+}
+.pi-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    color: #000;
+    margin-bottom: 45px;
+}
+.information-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+}
+.info-form-data {
+    margin-bottom: 38px;
+}
+.politic-data-link {
+}
+.user-politic-link {
+}
+.user-form-input {
+    width: 370px;
+    margin-bottom: 17px;
+    border: none;
+    border-bottom: 1px solid #CACACA;
+    padding-bottom: 8px;
+}
+.form-gender {
+    margin-bottom: 55px;
+}
+.form-gender:last-child {
+    margin-right: 0;
+}
+.user-form-input:nth-child(3) {
+    margin-bottom: 30px;
+}
+.radio-info label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+    margin-right: 34px;
+}
+.radio-info label:last-child {
+    margin-right: 0;
+}
+.user-sign-in {
+    display: inline-block;
+    width: 375px;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    color: #fff;
+    background-color: #000;
+    padding: 9px 0;
+    text-align: center;
+}
